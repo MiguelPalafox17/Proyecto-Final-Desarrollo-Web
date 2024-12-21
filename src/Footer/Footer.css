@@ -1,0 +1,129 @@
+.CuerpoFooter > section {
+    display: grid;
+    grid-template-rows: auto auto;
+    background-color: black;
+}
+
+.Caja1_Footer {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.Redes {
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-content: left;
+    background-color: #caa74a;
+} .Redes > h1{
+    padding-left: 50px;
+    max-width: auto;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+} .Redes > h2{
+    padding-left: 50px;
+    max-width: auto;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.Imagen1_Footer {
+    background-image: url('../assets/Imagenes/Imagen1_Footer.jpg');
+    background-position: -95vh -20px;
+    max-width: 800px;
+    align-content: center;
+} .Imagen1_Footer {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+} .Imagen1_Footer > h1 {
+    text-align: end;
+    max-width: 450px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+} .Imagen1_Footer > h2 {
+    text-align: end;
+    max-width: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+
+.Suscripcion > button {
+    background-color: #caa74a;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0px;
+    width: 30vh;
+}
+
+.Iconos_RedesSociales{
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    align-items: center;
+    margin-left: 40px;
+    margin-bottom: 20px;
+} .Iconos_RedesSociales > img {
+    margin-left: 30px;
+    width: 5vh;
+
+}
+
+.Suscripcion {
+    padding: 10px;
+    margin-left: auto;
+} .Suscripcion > input {
+    margin-right: 20px;
+    padding: 10px 10px;
+    width: 50vh;
+}
+
+.Caja2_Footer {
+    display: grid;
+    grid-template-columns: auto auto 1fr;
+    column-gap: 20vh;
+    margin: 0;
+} .Caja2_Footer > div {
+    align-content: center;
+}
+
+.Caja2_Texto1_Footer > h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.LogoBandainamco {
+    width: 40vh;
+    background-color: white;
+    margin-left: 20px;
+}
+
+.Caja2_Texto2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.Caja2_Texto2_Footer {
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+
+.Caja2_Texto3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.Caja2_Subtexto1 {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
